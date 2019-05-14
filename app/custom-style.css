@@ -1,0 +1,57 @@
+.legendContainer{
+    background-color: rgb(255,255,255) !important;
+    color: rgb(0,0,0)!important;
+}
+
+.titleBtn{
+    color: rgb(0,0,0) !important;
+}
+
+.accordion-header-number{
+    color: rgb(252, 205, 0)!important;
+}
+
+.accordion-header-title-wrapper{
+    color: rgb(252, 205, 0)!important;
+}
+
+#headerDesktop{
+    background-color: white !important;
+}
+
+.textArea{
+    color: black !important;
+}
+
+.accordionPanel .entry.active .accordion-header-arrow{
+    border-left-color:rgb(252, 205, 0)!important ;
+}
+
+.accordionPanel .accordion-header-arrow{
+    border-left-color:rgb(252, 205, 0)!important ;
+}
+
+.legendContainer .content{
+    max-height: none !important;
+}
+
+body.layout-accordion .mainMediaContainer .legendContainer{
+    right: 10px !important;
+}
+
+.accordionPanel{
+    width: 20% !important;
+}
+
+.esriViewPopup .header{
+    font-size: large !important;
+}
+
+.geocoderBtn{
+    top: 10px !important;
+}
+
+.esriSimpleSlider{
+    top: 50px !important;
+}
+
