@@ -15,11 +15,19 @@ define(["dojo/topic"], function(topic) {
     //   console.log(map.getLayer(e))
     // })
 
-   var affectation = map.getLayer('urbanisme_9286');
-   affectation.onClick('click', function(){
-     console.log('allo')
-   })
-    console.log(affectation)
+   // var affectation = map.getLayer('urbanisme_9286');
+   // affectation.click(function(){
+   //   console.log('allo')
+   // })
+   //  console.log(affectation)
+
+    $('.searchGroup').addClass('searchExpanded');
+    $('.searchGroup').removeClass('searchCollapsed');
+
+    $('.accordion-header').on('click', function(){
+        $('.searchGroup').addClass('searchExpanded');
+        $('.searchGroup').removeClass('searchCollapsed');
+    })
 
   });
 });
